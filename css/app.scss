@@ -1,0 +1,27 @@
+// Setup Document Global Settings
+
+// Import Google Font Poppins
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500');
+$pop: 'Poppins', sans-serif;
+
+h1, h2 ,h3 ,h4 ,h5, h6{
+    font-family: $pop;
+    font-weight: 500;
+}
+
+p, a, li, span{
+    font-family: $pop;
+    font-weight: 300;
+}
+
+// Import Flexbox
+
+@import "flexbox";
+
+// Header Styles
+
+.header{
+    img{
+        max-width: 14em;
+    }
+}
